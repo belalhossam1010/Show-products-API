@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Products</title>
+    <link rel="StyleSheet" href="CSS/all.css" />
+    <link rel="StyleSheet" href="CSS/bootstrap.css" />
+    <link rel="StyleSheet" href="showproduct.css" />
+  </head>
+  <body>
+    <div class="d-flex justify-content-center m-4">
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseExample"
+        aria-expanded="false"
+        aria-controls="collapseExample"
+      >
+        Click To show Products
+      </button>
+    </div>
+    <div class="collapse container" id="collapseExample">
+      <div class="row g-4 justify-content-center" id="products-container"></div>
+    </div>
+
+    <script src="Java Script/bootstrap.bundle.js"></script>
+    <script src="showProducts.js"></script>
+  </body>
+</html>

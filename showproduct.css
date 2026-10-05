@@ -1,0 +1,9 @@
+.text-success {
+  font-weight: bold !important;
+}
+.product-card {
+  transition: transform 0.25s ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+}
